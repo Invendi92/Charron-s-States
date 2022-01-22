@@ -20,9 +20,8 @@ func _ready():
 func _physics_process(delta):
 	if motion.y < MAXFALL:
 		motion.y += GRAVITY
-		if get_position().y > 800:
-			print("ici")
-			get_tree().reload_current_scene()
+#		if get_position().y > 800:
+#			get_tree().reload_current_scene()
 
 	motion.x = clamp(motion.x, -MAXSPEED, MAXSPEED)
 	if Input.is_action_pressed("Right"):
