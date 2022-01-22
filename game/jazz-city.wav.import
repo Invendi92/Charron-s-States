@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/jazz-city.wav-a3260a53546196544d39437d64be45dd.sample"
+
+[deps]
+
+source_file="res://jazz-city.wav"
+dest_files=[ "res://.import/jazz-city.wav-a3260a53546196544d39437d64be45dd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

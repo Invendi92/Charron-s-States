@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Acoustic_Guitar_4___Sound___Loop.mp3-6ae1c71fa6f6cb1d3cf7dd42c5fbd426.mp3str"
+
+[deps]
+
+source_file="res://Acoustic_Guitar_4___Sound___Loop.mp3"
+dest_files=[ "res://.import/Acoustic_Guitar_4___Sound___Loop.mp3-6ae1c71fa6f6cb1d3cf7dd42c5fbd426.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
