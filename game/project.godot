@@ -11,8 +11,12 @@ config_version=4
 [application]
 
 config/name="Charon's state"
-run/main_scene="res://Map.tscn"
+run/main_scene="res://splitscreen_component.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Checkpoint="*res://checkpoint.gd"
 
 [input]
 

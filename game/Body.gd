@@ -14,7 +14,7 @@ var facing_right = true
 var motion = Vector2()
 var player = get_position()
 func _ready():
-	follow_cam = get_node("/root/splitscreen_component/GridContainer/container1/Viewport1/Camera2D")
+	follow_cam = get_node("/root/splitscreen_component/GridContainer/container2/Viewport2/Camera2D")
 	pass
 
 func _physics_process(delta):
