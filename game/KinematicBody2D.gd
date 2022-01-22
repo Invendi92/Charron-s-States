@@ -5,9 +5,9 @@ export var id = 0
 const UP = Vector2(0,-1)
 const GRAVITY = 20
 const MAXFALL = 1500
-const MAXSPEED = 100
+const MAXSPEED = 300
 const JUMPFORCE = 590
-const ACCEL = 100
+const ACCEL = 200
 
 var follow_cam : Camera2D
 var facing_right = true
