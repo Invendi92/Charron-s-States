@@ -17,7 +17,7 @@ func _ready():
 
 
 func _on_Start_pressed():
-	get_tree().change_scene("res://Map.tscn")
+	get_tree().change_scene("res://splitscreen_component.tscn")
 
 
 func _on_Params_pressed():

@@ -11,26 +11,13 @@ config_version=4
 [application]
 
 config/name="Charon's state"
-<<<<<<< HEAD
-run/main_scene="res://splitscreen_component.tscn"
-=======
 run/main_scene="res://Menu.tscn"
->>>>>>> c8721f5b0808e25702048de6003b5691c17cfa67
 config/icon="res://icon.png"
+<<<<<<<HEADrun/main_scene="res://splitscreen_component.tscn"
 
 [autoload]
 
-<<<<<<< HEAD
 Checkpoint="*res://checkpoint.gd"
-=======
-Options="*res://Options.gd"
-
-[display]
-
-window/size/fullscreen=true
-window/stretch/mode="2d"
-window/stretch/aspect="keep"
->>>>>>> c8721f5b0808e25702048de6003b5691c17cfa67
 
 [input]
 
