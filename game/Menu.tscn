@@ -1,15 +1,18 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Menu.gd" type="Script" id=1]
 [ext_resource path="res://Menu.png" type="Texture" id=2]
+[ext_resource path="res://Acoustic_Guitar_4___Sound___Loop.mp3" type="AudioStream" id=3]
+[ext_resource path="res://input_menu/fonts/montserrat-extra-bold-24px.tres" type="DynamicFont" id=4]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
 
 [node name="Menu" type="Sprite" parent="."]
-position = Vector2( 513, 300.25 )
+position = Vector2( 157, 191 )
 scale = Vector2( 0.647282, 0.5 )
 texture = ExtResource( 2 )
+offset = Vector2( 549.992, 218.5 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 margin_left = 28.0
@@ -29,6 +32,7 @@ text = "Start"
 margin_top = 24.0
 margin_right = 111.0
 margin_bottom = 44.0
+rect_pivot_offset = Vector2( 129, -336 )
 text = "Paramètres"
 
 [node name="Exit" type="Button" parent="VBoxContainer"]
@@ -36,6 +40,30 @@ margin_top = 48.0
 margin_right = 111.0
 margin_bottom = 68.0
 text = "Quitter"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+position = Vector2( 515, 335 )
+stream = ExtResource( 3 )
+autoplay = true
+bus = "Music"
+
+[node name="Control" type="Label" parent="."]
+margin_left = -33.0
+margin_top = 170.0
+margin_right = 318.0
+margin_bottom = 201.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+custom_colors/font_color_shadow = Color( 1, 0.592157, 0, 1 )
+custom_constants/shadow_offset_x = 0
+custom_constants/shadow_offset_y = 4
+custom_fonts/font = ExtResource( 4 )
+text = "CHARRON'S STATES"
+align = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_Start_pressed"]
 [connection signal="pressed" from="VBoxContainer/Params" to="." method="_on_Params_pressed"]
