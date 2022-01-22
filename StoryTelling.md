@@ -94,3 +94,21 @@ Narrator: Such a shame, you could've just go along and continue your adventure, 
 Narrator: But now, you've became one, and it looks like things are going to become a little complicated for you
 
 Narrator: So now, are you sure you can keep on going like that? \*insert gunshot or something like that\*
+
+
+
+
+*********************************************************************IS STUCK ON A PUZZLE**********************************************************************
+
+Narrator: You know you have to find the solution at some point
+
+Narrator: \*Yawn\*
+
+Narrator: I noticed you've been hanging around here for a while, but it's not by staying here that we're gonna discover new things
+
+Narrator: Well, i'll brb, my takeout is here
+[X minutes later]
+Narrator: Oh, you're still here, well don't mind me eating \*proceeds to do a bunch of eating noices until the puzzle is solved\*
+[if the player finds the solution before the X minutes don't say anything (for now)]
+
+Narrator: \*Start humming a Rick Roll\*
