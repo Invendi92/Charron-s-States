@@ -6,7 +6,7 @@ const UP = Vector2(0,-1)
 const GRAVITY = 20
 const MAXFALL = 1500
 const MAXSPEED = 100
-const JUMPFORCE = 400
+const JUMPFORCE = 590
 const ACCEL = 100
 
 var follow_cam : Camera2D
