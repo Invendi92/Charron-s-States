@@ -23,7 +23,7 @@ Narrator: FREEDOM!! Oh wait, something feels wrong. Are you here or not?
 
 Narrator: No Matter, we have some exploring to do.
 
-Narrator: Aaahh, what an amazing feeling, stretching your legs, running around, feeling the air aroung you
+Narrator: Aaahh, what an amazing feeling, stretching your legs, running around, feeling the air around you
 
 [Encounters a platform]
 
@@ -35,11 +35,11 @@ Narrator: Wow that's incredible, are your legs mounted with springs?
 
 [Encounters a cave]
 
-Narrator: This cavern is pretty dark, there must be some light aroung here
+Narrator: This cavern is pretty dark, there must be some light around here
 
 [Find A light]
 
-Narrator: 
+Narrator: At last, light! Now you can kinda navigate inside this cavern
 
 [Gets out of the cave]
 
@@ -50,10 +50,6 @@ Narrator: Finally out, this place was starting to get freaky, time to get some s
 Narrator: Well, this feel familiar doesn't it?
 
 Narrator: There must be something new about this place
-
-[Gets out of the new forest]
-
-Narrator: X
 
 [Is in the damp underground]
 
