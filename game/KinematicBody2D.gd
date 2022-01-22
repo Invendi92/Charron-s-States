@@ -45,3 +45,7 @@ func _physics_process(delta):
 	
 func _process(delta):
 	follow_cam.global_position = global_position
+	
+func _input(event):
+	if event.is_action_pressed('ui_cancel'):
+		get_tree().change_scene("res://Menu.tscn")
