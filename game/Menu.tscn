@@ -45,6 +45,7 @@ text = "Quitter"
 position = Vector2( 515, 335 )
 stream = ExtResource( 3 )
 autoplay = true
+bus = "Music"
 
 [node name="Control" type="Label" parent="."]
 margin_left = -33.0
