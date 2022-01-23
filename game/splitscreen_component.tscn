@@ -73,10 +73,10 @@ current = true
 
 [node name="ColorRect" type="ColorRect" parent="."]
 material = SubResource( 2 )
-margin_left = -1.0
+margin_left = -173.0
 margin_top = 300.0
-margin_right = 1021.0
-margin_bottom = 599.0
+margin_right = 1188.0
+margin_bottom = 768.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
