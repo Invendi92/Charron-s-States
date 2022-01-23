@@ -6,21 +6,21 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 10, 30 )
 
-[node name="Bw_button" type="Node2D"]
+[node name="C_Button" type="Node2D"]
 
-[node name="Button_jump_bw" type="Node2D" parent="."]
+[node name="color" type="Node2D" parent="."]
 script = ExtResource( 2 )
 
-[node name="Area2D" type="Area2D" parent="Button_jump_bw"]
+[node name="Area2D" type="Area2D" parent="color"]
 collision_layer = 0
 collision_mask = 2
 monitorable = false
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Button_jump_bw/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="color/Area2D"]
 position = Vector2( 0, -20 )
 shape = SubResource( 1 )
 
-[node name="Sprite" type="Sprite" parent="Button_jump_bw"]
+[node name="Sprite" type="Sprite" parent="color"]
 texture = ExtResource( 1 )
 
-[connection signal="body_entered" from="Button_jump_bw/Area2D" to="Button_jump_bw" method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="color/Area2D" to="color" method="_on_Area2D_body_entered"]
